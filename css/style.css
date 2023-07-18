@@ -1945,7 +1945,6 @@ body::after {
             flex: 0 0 34px;
     height: 1.75rem;
     z-index: 14;
-    outline: none;
   }
 
   .icon-menu span,
