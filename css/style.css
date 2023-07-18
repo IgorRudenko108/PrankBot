@@ -1101,15 +1101,6 @@ body::after {
   display: block;
 }
 
-.offer__picture--mobile {
-  display: none;
-}
-
-.offer__picture--mobile img {
-  max-width: 100%;
-  display: block;
-}
-
 .advantages__inner {
   display: -ms-grid;
   display: grid;
@@ -1781,14 +1772,11 @@ body::after {
   }
 
   .offer__picture {
-    display: none;
-  }
-
-  .offer__picture--mobile {
-    display: block;
     width: 100%;
-    max-width: 445px;
-    margin: 0 auto 45px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    margin-bottom: 45px;
   }
 
   .advantages__inner {
