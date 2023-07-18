@@ -964,6 +964,10 @@ body::after {
           flex: 0 1 38%;
 }
 
+.intro__picture--mobile {
+  display: none;
+}
+
 .intro__img {
   max-width: 100%;
 }
@@ -2066,10 +2070,14 @@ body::after {
   }
 
   .intro__picture {
+    display: none;
+  }
+
+  .intro__picture--mobile {
+    display: block;
     width: 100%;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 100%;
-            flex: 0 1 100%;
+    max-width: 100%;
+    min-width: 306px;
     margin-bottom: 45px;
   }
 
