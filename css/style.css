@@ -952,6 +952,9 @@ body::after {
 .intro__star-wrapper svg {
   width: 18px;
   height: 18px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 18px;
+          flex: 0 0 18px;
   fill: #FFC107;
   -webkit-transition: fill 0.1s ease-in-out;
   transition: fill 0.1s ease-in-out;
@@ -2067,6 +2070,18 @@ body::after {
 
   .intro__text {
     max-width: 100%;
+  }
+
+  .intro__btn-star {
+    height: 50px;
+  }
+
+  .intro__star-wrapper svg {
+    width: 14px;
+    height: 14px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 14px;
+            flex: 0 0 14px;
   }
 
   .intro__picture {
